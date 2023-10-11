@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Kumbh+Sans:wght@400;600;700&family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --transparent: transparent;
+  --fira-sans: "Fira Sans", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+  --source-sans-pro: "Source Sans Pro", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
+  --summer-sky: #39d188;
+  --freshair: #ffffff;
+  --oxford-blue: #818285;
+  --mercury: #e5e5e5;
+  --bronze-olive: #2caae2;
+  --light-grey: #f4f5f8;
+  --seprater-color: #39d188;
+  --night-rider: #2c2c2c;
+  --eerie-black: #212121;
+  --suva-grey: #909090;
+  --light-grey-blue: #f4f5f9;
+  --dodger-blue: #192c57;
+  --light-green: #f2fbfe;
+  --orange: #fcbf02;
+  --privacy: #5d5e61;
+}
+section{
+  position: relative;
+}
+/* banner */
+.banner-section2 {
+height: 491px;
+  background-color: black;
+  
+    background-image: url('./saad Rizvi.png'); /* Replace 'your-image-url.jpg' with the URL or path to your background image */
+    background-size: cover; /* Adjust to your preference */
+    background-repeat: no-repeat; /* Adjust to your preference */
+    background-position: center center; /* Adjust to your preference */
+
+
+
+}
+.hero-split {
+  max-width: 95%;
+  padding-top: 9rem !important;
+  /* margin: auto; */
+}
+.heading {
+
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-family: 'Readex Pro';
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.text-span {
+  color: var(--seprater-color);
+  font-weight: 700;
+}
+.subheading {
+
+  margin-bottom: 0;
+  padding-top: 16px;
+  padding-left: 0;
+  color: #FFFFFF;
+  font-family: 'Readex Pro';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.qualify-btn {
+  color: #11574A;
+  letter-spacing: 0;
+  text-transform: none;
+  background-color: #FFFFFF;
+  padding: 0px 25px;
+  font-family: 'Readex Pro';
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 43px;
+  transition: all 0.2s;
+  border: none;
+  margin-top: 37px;
+  margin-bottom: 120px;
+  border-radius: 15px;
+}
+.qualify-btn:hover {
+  background-color: var(--transparent);
+  border: 1px solid var(--bronze-olive);
+  color: var(--bronze-olive);
+}
+.banner-img {
+  object-fit: cover;
+  height: 500px;
+position: absolute;
+bottom: 5px;
+right: 150px;
+z-index: 1;
+}
+.divider {
+  height: 8px;
+  background-color: var(--bronze-olive);
+}
+
+/* .footer {
+  background-color: #FEDDAA;
+  position: absolute;
+  height: auto;
+  padding: 10px 0px;
+  width: 100%;
+
+bottom: 0;
+} */
+
+
+
+
+
+.icon-text{
+color: #FFFFFF;
+font-size: 24px;
+
+}
+.icon-text i{
+  color: blue;
+  height: 20px;
+}
+.date-div{
+  color:#FFFFFF;
+  font-family: "Readex Pro";
+font-size: 20px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+top:50px;
+    padding-right: 280px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+   .img-container {
+  display: none;
+  }
+
+  
+}

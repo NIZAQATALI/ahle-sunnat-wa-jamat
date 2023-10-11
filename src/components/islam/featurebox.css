@@ -1,0 +1,52 @@
+.a-box{
+  
+    background-color: #000000;
+    width:250px;
+    height: 475px;
+    margin: 20px;
+    border-radius: none;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    position: relative;
+    
+}
+.a-b-img{
+    width: 100%;
+    height: 70%;
+
+}
+.a-b-img img{
+    width:100%;
+    height: 100%;
+}
+.a-b-text{
+    width: 100%;
+    height: 30%;
+    background-color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.a-b-text h2{
+    font-family: "Readex Pro";
+    font-size: 20px;
+    font-weight: 400;
+   color: #3B3B79
+    ;
+}
+.a-b-text p{
+    font-family: 'Readex Pro';
+    color: #3B3B79;
+    font-size: 14px;
+    font-weight: 400;
+    padding-inline: 30px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.a-b-text a{
+    margin-top:15px ;
+}
