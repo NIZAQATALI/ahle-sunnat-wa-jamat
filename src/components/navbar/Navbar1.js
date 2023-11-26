@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from '../button/Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from "./white.png"
 import Dropdown from '../dropDown/Dropdown';
 import { MenuItems } from '../menuItems/MenuItems';
 import { MenuItems1 } from '../menuItems/MenuItems';
@@ -31,7 +32,7 @@ export default function Navbar1() {
     <div>
       <nav className="my-custom-nav">
         <Link to='/' className='my-custom-logo' onClick={closeMobileMenu}>
-          <img src="/assets/logo.png" alt="My Logo" />
+          <img src={logo} alt="My Logo" />
         </Link>
         <div className='my-custom-menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

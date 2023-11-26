@@ -1,0 +1,120 @@
+.container {
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 11px;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+  
+  .title-primary {
+    color: #11574A;
+    font-size: 20px;
+    font-family: 'Readex Pro';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .separator {
+    width: 236px;
+    height: 11px;
+    position: relative;
+    display: flex;
+  }
+  
+  .title-secondary {
+    
+      font-family: 'Readex Pro';
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 38px;
+      letter-spacing: 0;
+      text-align: left;
+
+    
+  }
+  
+  .description {
+   
+    color: black;
+    font-size: 18px;
+    font-family: 'Readex Pro';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .button-container {
+    margin-top: 40px;
+    width: 164.63px;
+    height: 45px;
+    position: relative;
+    display: flex;
+  }
+  
+  .button-background {
+    width: 164.63px;
+    height: 45px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #3B3B79;
+    border-radius: 5px;
+  }
+  .button-text {
+    width: 145px;
+    height: 17px;
+    left: 13px;
+    top: 11px;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-family: 'Readex Pro';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .story-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-left {
+    background-color: #f0f0f0;
+   
+    
+  }
+  
+  .inner-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .inner-right-item {
+    margin: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .story-container {
+    flex-direction: column; /* Stack the columns vertically on small screens */
+  }
+}
+  
+  
+  
+  
+  

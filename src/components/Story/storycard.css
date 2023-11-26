@@ -1,0 +1,68 @@
+.storycard {
+    width: 283px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff
+    
+  }
+  .storycard-image {
+    img {
+      width: 100%;
+    }
+  }
+  .storycard-content {
+    padding: 16px;
+  }
+  .storycard-content h3{
+    width: 100%;
+    height: 100%;
+    color: #11574A;
+    font-size: 18px;
+    font-family: 'Readex Pro';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .storycard-content p {
+    width: 100%;
+    height: auto; /* You can adjust this as needed */
+    color: #11574A;
+    font-size: 12px;
+    font-family: 'Readex Pro';
+    font-weight: 400;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Show 2 lines of text */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .storycard-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+  }
+  
+  .storycard .slide-button {
+    background-color: #fff;
+    color:#3B3B79;
+    border: 1px solid gray;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .storycard .date {
+ display: flex;
+ align-items: center;
+    color: black;
+    font-size: 12px;
+    font-family: 'Readex Pro';
+    font-weight: 300;
+    word-wrap: break-word;
+  }
+  .fa-angle-right{
+font-size: 26px;
+  }
+  

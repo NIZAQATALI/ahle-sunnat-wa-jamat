@@ -1,0 +1,64 @@
+.column-of-sadqa-List {
+    border: 1px solid #11574A; /* Apply a 1px solid border to all sides */
+    border-width: 0 1px 5px 1px;
+   
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+  margin: 0px 5px;
+  }
+  .title-sadqa-List{
+    font-family: 'Readex Pro', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0;
+text-align: center;
+color: #111;
+margin: 10px 20px;
+  }
+  .fa-book-open:before {
+    content: "\f518";
+    font-size: 16px !important;
+    padding-right: 12px;
+    color: #11574A;
+}
+/* Style for the download icon */
+i.fas.fa-download {
+  font-size: 16px; /* Adjust the icon size */
+  color: #3B3B79; /* Change the icon color to blue */
+  margin-right: 5px; /* Add some space to the right of the icon */
+}
+
+  .bottom-div-listing{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: 10px 0px;
+  }
+
+ 
+  
+  .small-title{
+    display: flex;
+    align-items: center;
+    font-family: 'Readex Pro', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 33px;
+padding: 10px 40px ;
+margin: 0px 10px;
+background-color: 
+#F4D586;
+
+text-align: center;
+  }
+  .Under-div{
+    width: 250px;
+   align-items: center;
+    background-color: #11574A;
+    color: #fff;
+  }
+  .Under-div p{
+    padding: 15px 20px;
+  }

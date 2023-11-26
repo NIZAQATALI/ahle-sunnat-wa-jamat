@@ -24,34 +24,48 @@
   --orange: #fcbf02;
   --privacy: #5d5e61;
 }
-section{
+ .section{
+  position: relative;
+}
+.container-banner{
   position: relative;
 }
 /* banner */
-.banner-section {
-height: 611px;
-  background-color: #11574A;
+.banner-container{
+ position: relative;
 
 }
-.hero-split {
+.banner-section-1 {
+  position: relative;
+
+  background-color: #11574A;
+
+
+}
+/* .img-container{
+  position: relative;
+} */
+.hero-split-banner {
   max-width: 95%;
   padding-top: 9rem !important;
+  margin-inline: 180px;
   /* margin: auto; */
 }
-.heading {
+.heading-banner {
 
   color: #fff;
   letter-spacing: 0.5px;
   font-family: 'Readex Pro';
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 60px;
+  
 }
 .text-span {
   color: var(--seprater-color);
   font-weight: 700;
 }
-.subheading {
+.subheading-banner {
 
   margin-bottom: 0;
   padding-top: 16px;
@@ -78,19 +92,19 @@ height: 611px;
   margin-bottom: 120px;
   border-radius: 15px;
 }
-.qualify-btn:hover {
-  background-color: var(--transparent);
-  border: 1px solid var(--bronze-olive);
-  color: var(--bronze-olive);
+
+.banner-img{
+  width: 90%;
 }
-.banner-img {
-  object-fit: cover;
+.img-div-banner{
   height: 500px;
-position: absolute;
-bottom: 5px;
-right: 150px;
-z-index: 1;
+  position: absolute;
+  object-fit: cover;
+  bottom: 90px;
+  right: 60px;
+  z-index: 1;
 }
+
 .divider {
   height: 8px;
   background-color: var(--bronze-olive);
@@ -108,7 +122,7 @@ bottom: 0;
 
 
 
-.footer {
+.footer-banner {
   background-color: #FEDDAA;
   position: absolute;
   height: auto;
@@ -120,7 +134,7 @@ bottom: 0;
 }
 
 
-.icon-text{
+.icon-text-banner{
 color: #FFFFFF;
 font-size: 24px;
 
@@ -129,7 +143,7 @@ font-size: 24px;
   color: blue;
   height: 20px;
 }
-.date-div{
+.date-div-banner{
   color:#FFFFFF;
   font-family: "Readex Pro";
 font-size: 20px;
@@ -199,8 +213,18 @@ top:50px;
 @media screen and (max-width: 991px) {
    .img-container {
   display: none;
+
   }
 
+.row{
+  --bs-gutter-x: 0 !important;
+}
+  .hero-split-banner {
+    max-width: 95%;
+    padding-top: 9rem !important;
+    margin-inline: 18px;
+    /* margin: auto; */
+  }
   .footer {
     background-color: #FEDDAA;
     position: absolute;
@@ -220,6 +244,16 @@ top:50px;
     overflow: hidden;
     border-right: none ;/* Blinking cursor effect */
     animation: typing 10s steps(40) 1s infinite, blink-caret 1s step-end infinite;
+  }
+  .footer-banner {
+    background-color: #FEDDAA;
+    position: absolute;
+    height: auto;
+    padding: 10px 10px;
+    width: 100%;
+    bottom: 0;
+    font-size: 18px; /* You can adjust the font size as needed */
+    text-align: left;
   }
   
   @keyframes typing {

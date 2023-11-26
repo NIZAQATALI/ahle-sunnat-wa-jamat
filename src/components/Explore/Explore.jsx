@@ -6,20 +6,19 @@ import  Button  from "../../components/button/Button";
 export default function Explore() {
     return (
       <>
-     <section class="banner-section">
-      <div class="container">
+     <section class="banner-section-1 ">
+      <div class="container-banner">
         <div class="row d-flex align-items-center">
           <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="hero-split pt-5">
-              <div class ="icon-text">
+            <div class="hero-split-banner pt-5">
+              <div class ="icon-text-banner">
               <i className='fas fa-home' /> 
-
               <span> Home</span>
               </div>
-              <h1 class="heading">
+              <h1 class="heading-banner">
               Ahle Sunnat Wajamat
               </h1>
-              <p class="subheading header">
+              <p class="subheading-banner header">
               United in Faith, Steadfast in Belief: 
 Ahle Sunnat Wajamat , Guided by the Light of Islam.
               </p>
@@ -33,13 +32,12 @@ Ahle Sunnat Wajamat , Guided by the Light of Islam.
             </div>
           </div>
           <div class="col-lg-6 col-md-06 col-sm-12 img-container">
-            <div class="date-div">
+            <div class="date-div-banner">
             <i className='fas fa-moon' />   
             Tuesday, 21 Rabi'ul Awwal 1445 AH | October 06 2023
             </div>
-            <div>
+            <div class='img-div-banner'>
               <img
-                class="banner-img"
 src="images/masjid.png"
                 alt=""
               />
@@ -54,12 +52,11 @@ src="images/masjid.png"
   <div class="avatar" style={{backgrounColor: 'blue'}}>
     <i class="fas fa-comment"></i>
   </div>
-</div>
-      
+            </div>
           </div>
         </div>
       </div>
-      <div class ="footer"> <div class="typewriter">
+      <div class ="footer-banner"> <div class="typewriter">
   <span class="text">Join us in commemorating the a... -Join us in commemorating the a... - Animation </span>
 </div></div>
     </section>

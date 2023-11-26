@@ -1,0 +1,83 @@
+.column-of-imgContainer {
+    border: 1px solid #11574A; /* Apply a 1px solid border to all sides */
+    display: flex;
+  
+  flex-direction: column;
+  }
+  
+  .fa-book-open:before {
+    content: "\f518";
+    font-size: 16px !important;
+    padding-right: 12px;
+    color: #11574A;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically in the div */
+  border: 2px solid #fff;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+
+
+}
+
+img {
+  max-width: 100%; /* Ensure the image doesn't overflow the container */
+}
+
+.label {
+  /* Add styles for the label, e.g., font size, color, etc. */
+  font-size: 14px;
+  font-weight: bold;
+  
+  color:#fff;
+  margin-top: 15px; /* Adjust as needed for spacing */
+}
+ 
+  
+  /* .small-title-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Readex Pro', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 33px;
+padding: 10px 40px ;
+
+background-color: 
+#F4D586;
+
+text-align: center;
+  } */
+
+ 
+  .small-title-work {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Readex Pro', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 33px;
+      margin-top: 10px;
+      padding: 16px 40px;
+      background-color: #F4D586;
+      text-align: center;
+  }
+
+  
+  .Under-div{
+    width: 250px;
+   align-items: center;
+    background-color: #11574A;
+    color: #fff;
+  }
+  .Under-div p{
+    padding: 15px 20px;
+  }

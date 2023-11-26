@@ -1,0 +1,79 @@
+.section-ten{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hadith-card button{
+color: #FFF;
+text-align: center;
+font-family: Readex Pro;
+font-size: 18px;
+font-weight: 300;
+border-radius: 20px;
+background: #11574A;
+width: 218px;
+height: 40px;
+border: none;
+}
+.hadith-card{
+background-color: #d9d9d9;
+height: 467px;
+}
+.eloquent{
+    padding: 40px 30px;
+}
+.hadith-card h5{
+    margin-top: 30px;
+}
+.hadith-card p{
+color: #000;
+text-align: center;
+font-family: Readex Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+margin-top: 30px;
+}
+.Ayat-card{
+    background-color: #11574a;
+    height: 467px;
+}
+.Ayat-card button{
+color: #111;
+text-align: center;
+font-family: Readex Pro;
+font-size: 18px;
+font-weight: 300;
+width: 218px;
+height: 40px;
+border: none;
+border-radius: 20px;
+}
+.Kanz-ul-Iman{
+    padding: 40px 80px;
+}
+.Kanz-ul-Iman h5{
+color: #FFF;
+text-align: center;
+font-family: Skranji;
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+margin-top: 40px;
+}
+.Kanz-ul-Iman p{
+color: #FFF;
+font-family: Readex Pro;
+font-size: 16px;
+font-weight:300;
+line-height: 33px;
+margin-top: 30px;
+}
+.Surah p{
+color: #FFF;
+text-align: center;
+font-family: Readex Pro;
+font-size: 16px;
+font-weight: 300;
+line-height: 33px;
+}
+/*---section-ten-end---*/

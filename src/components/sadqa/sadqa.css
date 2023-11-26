@@ -1,0 +1,152 @@
+.custom-paragraph-sadqa {
+ 
+    color: #3B3B79; /* Change the text color */
+    /* Add any other styles you want */
+  }
+  .custom-class-h3-sadqa {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0;
+    color: #11574a;
+
+  }
+
+  .grid-container-of-sadqa {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr; /* Three columns, middle one is half the width of others */
+    grid-gap: 10px; /* Adjust the gap between columns as needed */
+    margin-inline: 150px;
+  }
+  
+  .column-of-Sadqa {
+    padding: 10px;
+   
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+  margin-inline: 30px;
+  padding: 20px;
+  background-image: url('./card background1.png');
+  }
+  
+  .half-width-column {
+    padding: 10px;
+ 
+    grid-column: 2; /* Place in the middle column */
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+  }
+  .image-big{
+height: 420px; 
+width: 300px;
+  }
+  .title-sadqa{
+    font-family: 'Readex Pro', sans-serif;
+font-size: 36px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0;
+text-align: center;
+color: #111;
+  }
+  .description-of-sadqa{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .bottom-div{
+
+    display: flex;
+    justify-content: space-between;
+  }
+  .small-title-Sadqa{
+    font-family: 'Readex Pro', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 33px;
+
+text-align: center;
+  }
+  .custom-class-h2-sadqa{
+    text-align: center;
+  }
+ /* Your existing CSS rules... */
+
+/* Your existing CSS rules... */
+
+/* Your existing CSS rules... */
+
+@media (max-width: 768px) {
+  .grid-container-of-sadqa {
+      grid-template-columns: 1fr; /* Single column for smaller screens */
+      margin-inline: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .half-width-column {
+      grid-column: auto; /* Remove fixed column placement */
+      display: block;
+      width: 100%;
+      
+  }
+  .custom-paragraph-sadqa {
+    color: #3B3B79;
+    font-size: 16px;
+    padding-inline: 20px;
+}
+
+  .column-of-Sadqa {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+      flex-direction: column;
+      margin-inline: 10px;
+      background-image: url('./card background1.png');
+      background-position: 0%;
+  }
+  .custom-class-h3-sadqa {
+      font-family: 'Readex Pro', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 25px;
+      letter-spacing: 0;
+      color: #11574a;
+  }
+  .image-big {
+      height: auto; /* Allow the image to scale with the container */
+      width: 100%; /* Ensure the image doesn't overflow its container */
+  }
+
+  .title-sadqa {
+      font-size: 28px; /* Decrease font size for smaller screens */
+      line-height: 35px;
+  }
+
+  .description-of-sadqa {
+      font-size: 14px; /* Decrease font size for smaller screens */
+      line-height: 28px;
+  }
+
+  .bottom-div {
+       /* Stack elements vertically */
+      align-items: center; /* Center align items */
+  }
+
+  .small-title-Sadqa {
+      font-size: 10px; /* Decrease font size for smaller screens */
+      line-height: 28px;
+  }
+  img, svg {
+    vertical-align: middle;
+  width: 100%;
+  padding-inline: 25px;
+}
+
+  /* Add more responsive styles as needed */
+}

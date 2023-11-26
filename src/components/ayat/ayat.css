@@ -1,0 +1,167 @@
+/* Default styles for the 2-column grid */
+  .left-column {
+   
+    background-color:  #D9D9D9;
+    display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 100px;
+    ; /* Set the background color for the left column */
+    /* Add any other styles you want for the left column */
+  }
+  .hadith {
+    background-color: #11574A;
+    font-size: 13px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-family: "Readex Pro";
+    margin-top: 40px;
+    font-weight: 400;
+    text-align: right;
+    padding: 10px; /* Add padding to provide some space between content and the div */
+     /* Start text from the right */
+  }
+  .ayat {
+    text-align: right; /* Start text from the right (for Arabic) */
+    padding-top: 40px; 
+   /* Add padding to provide some space between content and the div */
+  }
+  .ayat p{
+    font-family: "Skranji";
+    font-weight: bold;
+    font-size: 26px;
+  padding-left: 150px;
+  
+    text-align:right;
+    color: #000;
+  }
+  
+  .translation  {
+    text-align: left; /* Start text from the left (for English translation) */
+    padding: 10px; /* Add padding to provide some space between content and the div */
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 100px;
+  }
+  .reference {
+    text-align: left; /* Start text from the left (for reference) */
+    padding: 10px; /* Add padding to provide some space between content and the div */
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 33px;
+    padding-right: 400px;
+  }
+  .hadith-right {
+    background-color:#fff;
+    font-size: 13px;
+    border-radius: 25px;
+    color:  #11574A; ;
+    font-family: "Readex Pro";
+    margin-top: 40px;
+    margin-left: 100px;
+    font-weight: 400;
+   width: 200px;
+    text-align: left;
+    padding: 10px ; /* Add padding to provide some space between content and the div */
+     /* Start text from the right */
+  }
+  .ayat-right {
+    text-align: left; /* Start text from the right (for Arabic) */
+    padding-top: 40px; /* Add padding to provide some space between content and the div */
+   color: #fff;
+  }
+  .ayat-right p{
+    font-family: "Skranji";
+    font-weight: 700;
+    font-size: 30px;
+  padding-left: 100px;
+    letter-spacing: 0;
+    text-align:left;
+    color: #fff;
+  }
+  .translation-right  {
+    text-align: left; /* Start text from the left (for English translation) */
+    padding: 10px; /* Add padding to provide some space between content and the div */
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-inline: 80px;
+    color: #fff;
+  }
+  .reference-right {
+    text-align: right; /* Start text from the left (for reference) */
+    padding-right: 100px; /* Add padding to provide some space between content and the div */
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 33px;
+    color: #fff;
+  }
+  .right-column {
+ 
+    background-color: #11574A;
+    display: block;
+   align-items: left;
+    /* Set the background color for the right column */
+    /* Add any other styles you want for the right column */
+  
+  }
+.new-component-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+     /* Adjust the gap between columns as needed */
+}
+/* Media query for large screens */
+@media (max-width: 768px) {
+    .new-component-grid {
+      grid-template-columns: 1fr; /* Single column on small screens */
+    }
+    .left-column {
+      align-items: center; /* Center content on small screens */
+      padding-right: 0; /* Remove right margin on small screens */
+    }
+  
+    .right-column {
+      display: block;
+      text-align: center; /* Center content on small screens */
+    }
+    .hadith-right {
+      background-color: #fff;
+      font-size: 13px;
+      border-radius: 25px;
+      color: #11574A;
+      font-family: "Readex Pro";
+      margin-top: 40px;
+      margin-left: 79px;
+      font-weight: 400;
+      margin-right: 229px;
+      text-align: center;
+      padding: 10px;
+  }
+  .translation  {
+    text-align: center; /* Start text from the left (for English translation) */
+    padding: 10px; /* Add padding to provide some space between content and the div */
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+   
+  }
+  .translation p{
+   
+      font-size: 16px;
+      padding-left: 46px;
+      /* align-items: center; */
+
+  }
+  }
+  /* Media query for large screens */
+  @media (min-width: 1200px) {
+    .new-component-grid {
+      grid-template-columns: 1fr 1fr; /* Two columns on large screens */
+    }
+
+  
+}

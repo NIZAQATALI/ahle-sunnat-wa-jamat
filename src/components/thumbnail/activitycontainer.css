@@ -1,0 +1,17 @@
+/* ActivityContainer.css */
+
+  
+
+
+ 
+  
+  @media (max-width: 768px) {
+    .grid-item {
+    
+      width: 100%; /* Make grid items occupy the full width on small screens */
+      margin: 0; /* Remove the horizontal margin */
+    }
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* Full width for grid items */
+    }
+  }

@@ -1,0 +1,63 @@
+.cards-heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.black-heading {
+  width: 100%;
+  padding: 20px; /* Adjust the padding as needed */
+  background-color: black;
+}
+.my-black-heading {
+  color: white;
+  text-align: center;
+  font-family: "Readex Pro";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+}
+.wrapper-cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.card-img-quran{
+    object-fit: cover;
+       height: 290px;
+       width: 237px;
+     }
+     .card-img-HAD{
+       object-fit: cover;
+          height: 275px;
+          width: 299px;
+          margin-bottom: 15px
+     }
+        .card-img-FIQA{
+         object-fit: cover;
+         height: 217px;
+         width: 199px;
+         margin-bottom: 70px;
+          }
+
+          @media (max-width: 768px) {
+            /* Media query for smaller screens */
+            .wrapper-cards {
+              display: block;
+            
+           /* Add padding for better mobile display */
+            }
+            .black-heading {
+              width: 100%;
+              padding: 2px; /* Adjust the padding as needed */
+              background-color: black;
+            }
+            .my-black-heading {
+              color: white;
+              text-align: center;
+              font-family: "Readex Pro";
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 50px;
+            }
+          }
+          

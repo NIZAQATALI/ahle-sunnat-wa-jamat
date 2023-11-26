@@ -1,0 +1,549 @@
+.section-eight{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.explore-most span{
+color: #F4C153;
+font-family: Readex Pro;
+font-size: 20px;
+font-weight: 300;
+}
+.explore-most p{
+color: #FFF;
+text-align: center;
+font-family: Readex Pro;
+font-size: 16px;
+font-weight: 200;
+line-height: 33px; 
+padding-top: 10px;
+}
+.courses{
+    margin-top: 30px;
+}
+.courses1{
+    margin-top: 30px;
+}
+
+.courses p{
+color: #F4CD69;
+font-family: Readex Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.courses1 p{
+    color: #fff;
+    font-family: Readex Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    }
+.figh-course img{
+    width: 200px;
+}
+.figh-course span{
+color: #F4CD69;
+text-align: center;
+font-family: Readex Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 200;
+line-height: 33px;
+}
+.figh-course p{
+color: #FFF;
+font-family: Readex Pro;
+font-size: 14px;
+font-weight: 300;
+line-height: 25px;
+}
+.figh-course button{
+width: 109px;
+height: 37px;
+border-radius: 5px;
+background: #D9D9D9;
+border: none;
+border: 1px solid;
+}
+.figh-course button:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .5s;
+}
+.view-btn{
+    margin-top: 60px;
+}
+.view-btn button{
+width: 235px;
+height: 40px;
+color: #F4CD69;
+font-family: Readex Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+background-color: transparent;
+border: 1px solid #fff;
+}
+.view-btn button:hover{
+    background-color: #fff;
+    color:#000;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+@media (max-width:1330px) {
+    .phone-icon{
+        margin-top: -3px;
+    }
+}
+@media (max-width:1195px) {
+    .phone-icon{
+        margin-top: -90px;
+    }
+    .blue-img{
+        left: 300px;
+    }
+    .m00n-icon{
+        margin-bottom: 30px;
+    }
+   
+    .Sayyiduna-text{
+        width: 450px;
+
+    }
+}
+@media (max-width:992px) {
+    .my-nave{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-sunnat{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+    .Sayyiduna-text{
+        width: 380px;
+
+    }
+    .m00n-icon{
+        margin-bottom: 0px;
+    }
+    .ahle-sunnat p{
+        width: 100%;
+    }
+    .ahle-sunnat{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .Rabi-ul-awal {
+        flex-direction: column;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+    .Rabi-ul-awal img{
+        width: 400px;
+        height: 600px;
+    }
+
+    .nav-text{
+        gap: 0px;
+    }
+    .sect-tre-content{
+        height: 375px;
+    }
+    .slider-text{
+        padding-left:90px ;
+    }
+    .phone-icon{
+        display: none;
+    }
+    .figh-course{
+        flex-direction: column;
+    }
+    .story-prophet{
+        width: 285px;
+    }
+    .prophet-para{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .yusuf-para{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .cave-para{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .blessed-card{
+        height:470px;
+        width: 100%;
+    }
+    .Merciful-para{
+        height: auto;
+        width: 350px;
+    }
+    .section-twenty-foure{
+        margin-top: 1000px;
+    }
+    .blue-img{
+        left: 180px;
+    }
+    .according-tab{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .group-twenty-six{
+        width: 400px;
+    }
+    .footer-nav li{
+        padding-left: 0px;
+    }
+    .quick{
+        padding-left:0px;
+    
+    }
+    .famouse{
+        padding: 60px;
+    }
+}
+@media (max-width:820px){
+    .blue-img {
+        left: 230px;
+     }
+
+}
+@media (max-width:778px) {
+    .blue-img {
+        left: 200px;
+     }
+
+}
+@media (max-width:767px) {
+    .location-image{
+        margin-top: 50px;
+    }
+    .Sayyiduna-text{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-align: center;
+        padding-right: 50px;
+    }
+    .blue-img1{
+        display: none;
+    }
+    .blue-img{
+        display: none;
+    }
+    .m00n-icon{
+        margin-bottom: 34px;
+    }
+    .slider-text {
+        padding-left: 50px;
+    }
+    .slider-text h2{
+        font-size: 30px;
+    }
+    .slider-text span{
+        font-size: 30px;
+    }
+    .slider-text p{
+        font-size: 20px;
+    }
+    .slider-text button{
+        font-size: 20px;
+        width: 120px;
+        height: 40px;
+    }
+    .figh-course{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+  .about-image{
+        justify-content: center;
+        text-align: center;
+        align-items:center;
+
+    }
+    .about-us img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .about-us h2 {
+        justify-content: center;
+        text-align: center;
+      }
+      .Education{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .Education h6{
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+       } 
+    .Education p{
+        justify-content: center;
+        text-align: center;
+    } 
+    .group-img{
+        width: 300px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .eloquent{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    } 
+    .Kanz-ul-Iman{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }   
+    .section-twenty-foure{
+        margin-top: 1400px !important;
+    }  
+    .according-tab{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .group-twenty-six{
+        width: 300px;
+    }
+    .sect-tre-content{
+        height: 390px;
+    }
+ .univers{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .group-img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .blue-img {
+    left:250px;
+ }
+ .yusuf-para{
+    margin-top: 45px;
+ }
+ .famouse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+}
+@media (max-width:576px) {
+    .my-nave{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+    .m00n-icon{
+        margin-bottom: 0px;
+    }
+    .slider-text h2{
+        font-size: 20px;
+    }
+    .slider-text span{
+        font-size: 20px;
+    }
+    .slider-text p{
+        font-size: 15px;
+    }
+    .slider-text button{
+        font-size: 15px;
+        width: 100px;
+        height: 35px;
+    }
+    .quran-hadith img{
+        width: 200px;
+    }
+    .about-us h2 {
+        font-size: 25px;
+    }
+    .about-us span{
+        font-size: 25px;
+    }
+    .Sayyiduna-text{
+        padding: 40px 40px;
+    }
+    .famouse{
+        padding: 20px;
+    }
+    .famouse h5 {
+        font-size: 24px;
+    }
+    .Sayyiduna-text h5{
+        font-size: 24px;
+    }
+    .according-tab{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-items li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+  .footer-items{
+    justify-content: center;
+  }
+  .footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+    .important span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+    .last-footer-text{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Kanz-ul-Iman{
+        padding: 40px 10px;
+    }
+    .eloquent{
+        padding: 40px 10px;
+    }
+    .success-stories{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .success-stories span{
+        margin-top: 10px;
+    }
+    .location-image{
+        margin-top: 10px;
+    }
+    .blog-btn{
+        margin-top: -65px;
+    }
+    .famouse h5{
+        margin-top: 10px;
+    }
+    .famouse p{
+        margin-top: 10px;
+    }
+    .last-footer-text p{
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+    .blessed-card{
+        height:470px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sect-tre-content{
+        height: 350px;
+    }
+    .blue-img{
+      left: 200px;
+    }
+    .one-img{
+        width: 200px;
+     }
+     .course{
+        padding-left: 35px;
+     }
+     .improve-card{
+       width: 70%;
+     }
+      .famouse {
+        padding-top: 30px;
+    }
+}
+@media (max-width:555px) {
+    .m00n-icon{
+        margin-bottom: 34px;
+    }
+
+}
+@media (max-width:375px) {
+    .Sayyiduna-text{
+        padding: 0px 20px;
+    }
+    .blue-img img {
+        top: 350px;
+        left: 100px;
+    }
+    .according-tab{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Merciful-para{
+        width: auto;
+    }
+    .Welfare button{
+        height:55px ;
+    } 
+    .islam-activites p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } 
+    .ahle-sunnat h1{
+        font-size: 27px;
+    }
+    .one-img{
+        width: 140px;
+     }
+     .blue-img{
+        left: 180px;
+      }
+      .improve-card{
+        width: 100%;
+      }
+      .m00n-icon{
+        margin-bottom: 65px;
+    }
+}
